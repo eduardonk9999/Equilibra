@@ -6,13 +6,73 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-  }
-  a {
+}
+a {
     text-decoration: none;
-  }
+}
   
-  html {
+html {
     font-size: 62.5%;
     font-family: "Mohave", sans-serif;
-  }
+}
+
+@media (max-width: 900px) {
+    html {
+      font-size: 50.2%;
+    }
+}
+
+.container__equilibra {
+    margin: 0 auto 1rem auto;
+    text-align: center;
+}
+
+.title_equilibra {
+    color: #FFCC4A;
+    font-size: 9rem;
+}
+
+.logo_equilibra{
+    max-width: 18.8rem;
+    margin-top: 5rem ;
+    margin-bottom: 5rem;
+}
+
+.login__btn {
+    border: none;
+    background-color: #FF4F75;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0.4rem;
+    transition: 1s;
+}
+
+button.login__btn:hover {
+    transition: 1s;
+    background: #c60831;
+}
   
+a.socialMidia__btn img {
+    width: 5rem;
+}
+
+a.socialMidia__btn {
+    width: 40px;
+    border: 1px solid #FF4F75;
+    padding: 4rem 2rem;
+    border-radius: 100px;
+    margin: 1rem;
+}
+
+nav.socialMidia__nav {
+    margin: 7.4rem 0 7rem 0;
+}
+
+.text_footer {
+    font-size: 2.1rem;
+    margin-top: 4.5rem;
+}
