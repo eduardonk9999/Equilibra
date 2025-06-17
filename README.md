@@ -1,2 +1,2 @@
 # EQUILIBRA
-![Logo do Projeto](./assets/img/cofrinho.png)
+![Cofrinho](./assets/img/cofrinho.svg)
